@@ -11,17 +11,24 @@ while True:
     print("Enter second number:")
     num2 = float(input())
 
-    print("Enter operator:")
+    print("Enter operator (+, -, *, /):")
     operator = input()
 
-if operator == "+":
-    result = num1 + num2
-elif operator == "-":
-    result = num1 - num2
-elif operator == "*":
-    result = num1 * num2
-elif operator == "/":
-    if num2 != 0:
-        result = num1 / num2
-print("Result:", result)
-#test git
+    if operator == "+":
+        result = num1 + num2
+    elif operator == "-":
+        result = num1 - num2
+    elif operator == "*":
+        result = num1 * num2
+    elif operator == "/":
+        if num2 != 0:
+            result = num1 / num2
+        else:
+            print("Error: Division by zero")
+            result = None
+    else:
+        print("Invalid operator")
+        result = None
+
+    if result is not None:
+        print("Result:", result)
