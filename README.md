@@ -12,4 +12,4 @@ A straightforward, beginner-friendly command-line calculator built with Python. 
 
 1. **Download the code:** Clone this repository using Git:
 ```bash
-   git clone [https://github.com/YOUR_USERNAME/simple-calculator.git](https://github.com/YOUR_USERNAME/simple-calculator.git)
+   git clone (https://github.com/rajgolder/simple-calculator)
